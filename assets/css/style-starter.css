@@ -11781,7 +11781,7 @@ fieldset:disabled .btn {
 /* //bootstrap */
 
 /* css style */
-:root {
+[data-theme="dark"] {
   --primary-color: #F54748;
   --secondary-color: #131917;
   --font-color: #363636;
@@ -11801,7 +11801,7 @@ fieldset:disabled .btn {
   --inner-layer-color: rgb(235 244 245 / 91%);
 }
 
-[data-theme="dark"] {
+:root  {
   --primary-color: #F54748;
   --secondary-color: #fff;
   --font-color: #b7b7b7;
